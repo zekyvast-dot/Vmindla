@@ -569,6 +569,13 @@
                width: 100%;
                justify-content: center;
            }
+
+            .app-icon img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+           }         
        }
    </style>
 </head>
@@ -614,7 +621,9 @@
            <!-- CapCut -->
            <div class="app-card">
                <div class="app-header">
-                   <div class="app-icon">capcut.png</div>
+                   <<div class="app-icon" style="background: none; box-shadow: none; padding: 0; overflow: hidden;">
+               <img src="capcut.png" alt="CapCut" style="width: 100%; height: 100%; object-fit: cover; border-radius: 20px;">
+                   </div>
                    <div class="app-info">
                        <h3>CapCut</h3>
                        <div class="version">v11.8.0 • Pro Unlocked</div>
